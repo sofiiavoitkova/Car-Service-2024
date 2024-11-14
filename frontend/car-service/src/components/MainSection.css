@@ -1,0 +1,67 @@
+.main-section {
+    text-align: center;
+    color: #ffffff;
+    background: #0d1b2a; /* Dark background */
+    padding: 50px;
+  }
+  
+  .main-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .main-section h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  
+  .main-section p {
+    font-size: 1rem;
+    color: #66ccff; /* Light blue color */
+  }
+  
+  .car-image {
+    width: 500px; /* Adjust size as needed */
+    margin-top: 20px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .icons span {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+.workshop-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.workshop-item {
+  width: 150px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.workshop-item:hover {
+  transform: scale(1.05);
+}
+
+.workshop-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  max-width: 600px;
+  border-radius: 8px;
+}
