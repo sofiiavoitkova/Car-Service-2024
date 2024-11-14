@@ -19,8 +19,7 @@ function Header() {
       </div>
       <nav>
         <a href="#home" className="active">Home</a>
-        <a href="#about">About</a>
-        {/* Update Workshops link to call scrollToSection */}
+        <a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>About</a>
         <a href="#workshops" onClick={(e) => { e.preventDefault(); scrollToSection('workshops'); }}>Workshops</a>
         <a href="#featured">Featured Brands</a>
       </nav>

@@ -8,4 +8,10 @@ body {
   h2, h3 {
     color: #ffffff;
   }
+  .logos__container {
+    grid-template-columns: repeat(6,max-content);
+  }
+  .logos__img {
+    width: 50px;
+  }
   

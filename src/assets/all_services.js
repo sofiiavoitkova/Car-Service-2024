@@ -219,7 +219,7 @@ const workshops = [
         name: "AutoCentrum Elektronowa 18",
         address: "Elektronowa 18, Łódź",
         phone: "42 298 00 07",
-        payment: ["cash", "card"],
+        paymentMethods: ["cash", "card"],
         services: [
           "Auto glass repair and replacement",
           "Side window replacement",
@@ -345,7 +345,7 @@ const workshops = [
           "Collision repair",
           "Static automatic transmission oil change"
         ],
-        car_brands: [
+        acceptedBrands: [
           "Alfa Romeo", "Aston Martin", "Audi", "BMW", "Chevrolet", "Chrysler", 
           "Citroen", "Dacia", "Daewoo", "Dodge", "Fiat", "Ford", "Honda", "Hyundai",
           "Infiniti", "Isuzu", "Jaguar", "Jeep", "Kia", "Lancia", "Land Rover",
@@ -361,7 +361,7 @@ const workshops = [
         name: "F.P.H.U. BOREX MECHANIKA POJAZDOWA",
         address: "Rzgowska 163, Górna, Łódź",
         phone: "429420416",
-        payment: ["cash", "card"],
+        paymentMethods: ["cash", "card"],
         services: [
           "Diesel service",
           "Fuel injection pump repair",
@@ -382,7 +382,10 @@ const workshops = [
           "Vehicle electronics",
           "Clutch repair"
         ],
-        car_brands: ["Various brands accepted"]
+        acceptedBrands: ["Alfa Romeo", "Audi", "BMW", "Chevrolet", "Ford", "Hyundai", 
+          "Kia", "Mazda", "Mercedes-Benz", "Mitsubishi", "Nissan", "Peugeot", 
+          "Renault", "Seat", "Skoda", "Subaru", "Suzuki", "Toyota", "Volkswagen", "Volvo"]
+        
       },
       // Entry for ID 5
       {
@@ -390,7 +393,7 @@ const workshops = [
         name: "AutoPoint Zamiennik",
         address: "Srebrzyńska 6, Bałuty, Łódź",
         phone: "+48574751724",
-        payment: ["cash"],
+        paymentMethods: ["cash"],
         services: [
           "Auto glass repair",
           "Car bodywork",
@@ -411,7 +414,7 @@ const workshops = [
           "Car electronics",
           "TPMS sensor programming"
         ],
-        car_brands: ["Alfa Romeo", "Audi", "BMW", "Chevrolet", "Ford", "Hyundai", 
+        acceptedBrands: ["Alfa Romeo", "Audi", "BMW", "Chevrolet", "Ford", "Hyundai", 
           "Kia", "Mazda", "Mercedes-Benz", "Mitsubishi", "Nissan", "Peugeot", 
           "Renault", "Seat", "Skoda", "Subaru", "Suzuki", "Toyota", "Volkswagen", "Volvo"]
       },
@@ -421,7 +424,7 @@ const workshops = [
         name: "Autotrans Mar-Car",
         address: "Pokładowa 13/15, Górna, Łódź",
         phone: "429420412",
-        payment: ["cash", "card"],
+        paymentMethods: ["cash", "card"],
         services: [
           "Auto diagnostics",
           "Mechanical repairs",
@@ -440,7 +443,7 @@ const workshops = [
           "Vehicle inspection",
           "TPMS programming"
         ],
-        car_brands: ["Alfa Romeo", "Audi", "BMW", "Chevrolet", "Citroen", "Fiat",
+        acceptedBrands: ["Alfa Romeo", "Audi", "BMW", "Chevrolet", "Citroen", "Fiat",
           "Ford", "Honda", "Hyundai", "Jaguar", "Kia", "Lexus", "Mazda", 
           "Mercedes-Benz", "Mini", "Mitsubishi", "Nissan", "Opel", "Peugeot", 
           "Renault", "Seat", "Skoda", "Subaru", "Suzuki", "Toyota", 
@@ -451,7 +454,7 @@ const workshops = [
         name: "Olech Serwis",
         address: "Gdańska 54, Łódź",
         phone: "422302044",
-        payment: ["cash", "card"],
+        paymentMethods: ["cash", "card"],
         services: [
           "Auto diagnostics",
           "Mechanical repairs",
@@ -471,7 +474,7 @@ const workshops = [
           "Pre-purchase inspection",
           "TPMS sensor service"
         ],
-        car_brands: [
+        acceptedBrands: [
           "Audi", "BMW", "Citroen", "Fiat", "Ford", "Honda", "Hyundai", "Kia", 
           "Mazda", "Mercedes-Benz", "Mitsubishi", "Nissan", "Opel", "Peugeot", 
           "Renault", "Seat", "Skoda", "Subaru", "Suzuki", "Toyota", 
