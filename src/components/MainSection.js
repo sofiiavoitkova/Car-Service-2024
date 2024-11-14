@@ -15,6 +15,7 @@ function MainSection() {
         <span role="img" aria-label="battery">⚡</span>
       </div>
     </section>
+    
   );
 }
 
