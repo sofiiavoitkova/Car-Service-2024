@@ -1,6 +1,6 @@
 import React from 'react';
 import './MainSection.css';
-import carImage from '/path/to/car-image.png'; // Replace with the path to your car image
+import carImage from '../assets/car-image.png';
 
 function MainSection() {
   return (

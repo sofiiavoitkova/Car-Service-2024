@@ -1,15 +1,15 @@
+// src/App.js
 import React from 'react';
+import Header from './components/Header';
+import MainSection from './components/MainSection';
 import './App.css';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-      </Routes>
-    </Router>
+    <div className="App">
+      <Header />
+      <MainSection />
+    </div>
   );
 }
 
